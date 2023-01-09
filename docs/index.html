@@ -1,1 +1,76 @@
-<h1>This is a test</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Jayantakumar M</title>
+    <meta name="description" content="A Portfolio site about me , my interests and current works">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Baskervville.css">
+    <link rel="stylesheet" href="assets/css/DM%20Sans.css">
+    <link rel="stylesheet" href="assets/css/Libre%20Baskerville.css">
+    <link rel="stylesheet" href="assets/css/Rum%20Raisin.css">
+    <link rel="stylesheet" href="assets/css/aos.min.css">
+    <link rel="stylesheet" href="assets/css/-Fixed-Navbar-start-with-transparency-background-BS4--transparency-menu.css">
+    <link rel="stylesheet" href="assets/css/Banner-Heading-Image-images.css">
+    <link rel="stylesheet" href="assets/css/Hero-Features-icons.css">
+    <link rel="stylesheet" href="assets/css/Social-Icon--hover-effect.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md py-3">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="https://jayantakumar.github.io"><span style="font-family: 'Rum Raisin', sans-serif;font-size: 40px;">JK</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-2">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="https://jayantakumar.github.io">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://jayantakumar.github.io/projects.html">Projects</a></li>
+                    <li class="nav-item"></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="py-4 py-xl-5" style="background: rgba(215,204,156,0.29);margin: 0;">
+        <div class="container">
+            <div class="bg-dark border rounded border-0 border-dark overflow-hidden" style="background: var(--bs-border-color-translucent);">
+                <div class="row g-0" style="background: #f3f0e2;">
+                    <div class="col-md-6 col-lg-5 order-first order-md-last" style="min-height: 250px;"><img data-aos="slide-right" data-aos-duration="900" class="w-100 h-100 fit-cover" src="assets/img/DALL·E%202023-01-09%2016.47.28%20-%20a%20modern%20music%20band%20but%20in%20medieval%20kings%20court%20%20in%20medieval%20style%20painting.png" width="468" height="389" style="padding: 5px;"></div>
+                    <div class="col align-self-center order-last" style="background: rgb(243,240,226);padding: 0;margin: 10px;">
+                        <p class="fw-normal text-center" data-bss-disabled-mobile="true" data-aos="fade" data-aos-delay="900" style="font-family: Baskervville, serif;font-size: 30px;padding: 20px;text-align: right;">Music, a universal tongue<br>Spoken by all, young and old<br>Bringing joy, peace and love<br>A force that can never be controlled</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container" style="padding: 15px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 style="font-family: 'Libre Baskerville', serif;text-align: center;margin: 30px;">Music Recommendation System</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-start" style="font-family: Baskervville, serif;font-size: 20px;padding: 10px;margin: 10px;"><strong><span style="text-decoration: underline;">Introduction</span></strong><br><br>Music is a form of art that has the ability to connect people across boundaries of space, time, and culture. It is also capable of evoking strong emotions and memories in listeners. In today's digital age, music is present in many aspects of daily life and social activity. The act of listening to music has become more complex due to the abundance of options available through large-scale music streaming services and the use of Big Data. By using these technologies and approaches, along with access to natural listening data gathered from various cultures, geographies, and economic settings, as well as song-level metadata, we can gain deeper insights into musical behavior on biological, social, and cultural levels. Through the final project of CS561, we will explore the domain of music recommendation systems, the inherent nature of the problem, and other interesting insights that we discover along the way.<br><br><strong><span style="text-decoration: underline;">Philosophy of similarity</span></strong><br><br>To construct a similarity metric for a recommendation system, we first need to consider the philosophy of similarity that the system will follow. There are two major types of recommendation systems: collaborative filtering systems and content-based systems. Collaborative filtering systems assume that if two users (x and y) are similar, then x is likely to enjoy the same things that y does. Content-based systems, on the other hand, consider the similarity between an item and what a user x likes, rather than looking at other similar users and their preferences.<br><br>There are also two approaches to determining what a user likes: implicit rating-based systems, which try to extract relevance and preferences from metadata generated by the user, and explicit rating systems, which simply ask the user directly. In this project, we will be using a collaborative filtering system that relies on an implicit rating system.<br><br><strong><span style="text-decoration: underline;">Project Details</span></strong><br><br>For this project, we plan to build a basic music recommendation system using the MLlib libraries that are part of the Spark installation. Our dataset will be the Million Song Dataset, which is a collection of audio features and metadata for one million contemporary popular music tracks. It does not include any audio, only derived features and metadata provided by The Echo Nest. We will also be using the Taste Profile dataset, which contains real user play counts for songs that have been matched to the Million Song Dataset. We will use the play counts as an implicit measure of a user's preference for a song, assuming that if a user has listened to a song more frequently compared to other songs, they like that song more. To choose the best hyperparameter combination, we will use a cross validator. Once we have the hyperparameters and rating matrix set, we will run Algorithm (Details in the full report) on the input matrix and try to fill in the empty cells. Then, we will return the top k rated songs as recommendations for the user.<br><br><strong><span style="text-decoration: underline;">Interested In Knowing more?</span></strong><br>This is part of a formal coursework hence this project is backed up with formal IEEE standard reports and presentations which are available in the links below , The codebase is also available as a public repository in GitHub whose link is also available below. You can always contact me to know more or to discuss further ideas on the topic.&nbsp;</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-center"><a href="https://drive.google.com/file/d/1ZBd9Sx7R95uYpGy4EFK0gjT-C9eICVCT/view?usp=sharing" target="_blank"><button class="btn btn-outline-light btn-lg" data-aos="zoom-in" data-aos-duration="400" type="button" style="font-family: Baskervville, serif;color: var(--bs-black);font-weight: bold;border-color: var(--bs-black);margin: 15px;">Report</button></a><a href="https://docs.google.com/presentation/d/1qHSwtproMipq67PpIiWotSLVZi3nCkhO/edit?usp=sharing&amp;ouid=102181049317052191821&amp;rtpof=true&amp;sd=true" target="_blank"><button class="btn btn-outline-light btn-lg" data-aos="zoom-in" data-aos-duration="400" data-aos-delay="400" type="button" style="font-family: Baskervville, serif;color: var(--bs-black);font-weight: bold;border-color: var(--bs-black);margin: 15px;">Presentation</button></a><a href="https://github.com/jayantakumar/MusicRecommendationSystem" target="_blank"><button class="btn btn-outline-light btn-lg" data-aos="zoom-in" data-aos-duration="400" data-aos-delay="800" type="button" style="font-family: Baskervville, serif;color: var(--bs-black);font-weight: bold;border-color: var(--bs-black);margin: 15px;">GitHub</button></a></div>
+    </div>
+    <footer class="text-center">
+        <div class="container text-muted py-4 py-lg-5">
+            <ul class="list-inline">
+                <li class="list-inline-item me-4"><a class="link-secondary" href="https://jayantakumar.github.io">Home</a></li>
+                <li class="list-inline-item me-4"><a class="link-secondary" href="https://jayantakumar.github.io/projects.html">Projects</a></li>
+                <li class="list-inline-item"><a class="link-secondary" href="mailto:benten867@gmail.com">Mail</a></li>
+            </ul>
+            <p class="mb-0">Copyright © 2023 JK</p>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/-Fixed-Navbar-start-with-transparency-background-BS4-.js"></script>
+</body>
+
+</html>
