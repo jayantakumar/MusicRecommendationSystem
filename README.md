@@ -1,5 +1,5 @@
 # MusicRecommendationSystem
-![image](docs/assets/img/DALL·E_2023-01-08_17.46.06_-_an_ai_poet_singing_his_song_to_a_medival_king.png)
+![image](https://github.com/jayantakumar/MusicRecommendationSystem/blob/9f4dd4c1038276c82eef0550dbea3a4f27d5c352/docs/assets/img/DALL%C2%B7E%202023-01-08%2017.46.06%20-%20an%20ai%20poet%20singing%20his%20song%20to%20a%20medival%20king.png)
 ## Introduction
 
 Music is a form of art that has the ability to connect people across boundaries of space, time, and culture. It is also capable of evoking strong emotions and memories in listeners. In today's digital age, music is present in many aspects of daily life and social activity. The act of listening to music has become more complex due to the abundance of options available through large-scale music streaming services and the use of Big Data. By using these technologies and approaches, along with access to natural listening data gathered from various cultures, geographies, and economic settings, as well as song-level metadata, we can gain deeper insights into musical behavior on biological, social, and cultural levels. Through the final project of CS561, we will explore the domain of music recommendation systems, the inherent nature of the problem, and other interesting insights that we discover along the way.
