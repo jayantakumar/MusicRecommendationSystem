@@ -1,5 +1,5 @@
 # MusicRecommendationSystem
-
+![image](docs/assets/img/DALL·E 2023-01-08 17.46.06 - an ai poet singing his song to a medival king.png " A cosmic Poet.")
 ## Introduction
 
 Music is a form of art that has the ability to connect people across boundaries of space, time, and culture. It is also capable of evoking strong emotions and memories in listeners. In today's digital age, music is present in many aspects of daily life and social activity. The act of listening to music has become more complex due to the abundance of options available through large-scale music streaming services and the use of Big Data. By using these technologies and approaches, along with access to natural listening data gathered from various cultures, geographies, and economic settings, as well as song-level metadata, we can gain deeper insights into musical behavior on biological, social, and cultural levels. Through the final project of CS561, we will explore the domain of music recommendation systems, the inherent nature of the problem, and other interesting insights that we discover along the way.
